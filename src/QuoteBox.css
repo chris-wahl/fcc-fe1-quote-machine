@@ -1,0 +1,60 @@
+div#container {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#quote-box {
+  transition: 1s;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: black 1px 1px 3px;
+  width: 25em;
+  min-height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p#text {
+  text-indent: 2em;
+  padding: 1em;
+}
+
+p#author {
+  text-align: right;
+  white-space: nowrap;
+  font-weight: 800;
+  opacity: 0.75;
+}
+
+section#links {
+  display: flex;
+  widtH: 100%;
+  justify-content: flex-end;
+}
+
+button#new-quote {
+  transition: 0.5s;
+  padding: 1em;
+  border-radius: 10px;
+  font-weight: 1000;
+  color: rgba(255, 255, 255, 0.95);
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button#new-quote:hover {
+  background-color: darkslateblue;
+  text-shadow: black 1px 1px 3px;
+}
+
+button#new-quote:active {
+  background-color: aliceblue;
+  color: black;
+  text-shadow: lightblue 1px 1px 3px;
+}
